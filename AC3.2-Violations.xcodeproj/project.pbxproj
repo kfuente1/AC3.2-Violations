@@ -8,22 +8,26 @@
 
 /* Begin PBXBuildFile section */
 		1EE6D1321DB2D7B0006EBDBF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EE6D1311DB2D7B0006EBDBF /* AppDelegate.swift */; };
-		1EE6D1341DB2D7B0006EBDBF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EE6D1331DB2D7B0006EBDBF /* ViewController.swift */; };
 		1EE6D1371DB2D7B0006EBDBF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1EE6D1351DB2D7B0006EBDBF /* Main.storyboard */; };
 		1EE6D1391DB2D7B0006EBDBF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1EE6D1381DB2D7B0006EBDBF /* Assets.xcassets */; };
 		1EE6D13C1DB2D7B0006EBDBF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1EE6D13A1DB2D7B0006EBDBF /* LaunchScreen.storyboard */; };
 		1EE6D1441DB2D7C4006EBDBF /* violations.json in Resources */ = {isa = PBXBuildFile; fileRef = 1EE6D1431DB2D7C4006EBDBF /* violations.json */; };
+		9CF60A1D1DB484B10021BEE3 /* violations .swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CF60A1C1DB484B10021BEE3 /* violations .swift */; };
+		9CF60A1F1DB49AE20021BEE3 /* restarauntTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CF60A1E1DB49AE20021BEE3 /* restarauntTableViewController.swift */; };
+		9CF60A211DB49B690021BEE3 /* RestarauntDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CF60A201DB49B690021BEE3 /* RestarauntDetailViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		1EE6D12E1DB2D7B0006EBDBF /* AC3.2-Violations.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "AC3.2-Violations.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1EE6D1311DB2D7B0006EBDBF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		1EE6D1331DB2D7B0006EBDBF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		1EE6D1361DB2D7B0006EBDBF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		1EE6D1381DB2D7B0006EBDBF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1EE6D13B1DB2D7B0006EBDBF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1EE6D13D1DB2D7B0006EBDBF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1EE6D1431DB2D7C4006EBDBF /* violations.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = violations.json; sourceTree = "<group>"; };
+		9CF60A1C1DB484B10021BEE3 /* violations .swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "violations .swift"; sourceTree = "<group>"; };
+		9CF60A1E1DB49AE20021BEE3 /* restarauntTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = restarauntTableViewController.swift; path = ../restarauntTableViewController.swift; sourceTree = "<group>"; };
+		9CF60A201DB49B690021BEE3 /* RestarauntDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RestarauntDetailViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,9 +61,11 @@
 		1EE6D1301DB2D7B0006EBDBF /* AC3.2-Violations */ = {
 			isa = PBXGroup;
 			children = (
+				9CF60A1E1DB49AE20021BEE3 /* restarauntTableViewController.swift */,
 				1EE6D1311DB2D7B0006EBDBF /* AppDelegate.swift */,
-				1EE6D1331DB2D7B0006EBDBF /* ViewController.swift */,
 				1EE6D1351DB2D7B0006EBDBF /* Main.storyboard */,
+				9CF60A201DB49B690021BEE3 /* RestarauntDetailViewController.swift */,
+				9CF60A1C1DB484B10021BEE3 /* violations .swift */,
 				1EE6D1381DB2D7B0006EBDBF /* Assets.xcassets */,
 				1EE6D13A1DB2D7B0006EBDBF /* LaunchScreen.storyboard */,
 				1EE6D13D1DB2D7B0006EBDBF /* Info.plist */,
@@ -140,7 +146,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1EE6D1341DB2D7B0006EBDBF /* ViewController.swift in Sources */,
+				9CF60A211DB49B690021BEE3 /* RestarauntDetailViewController.swift in Sources */,
+				9CF60A1D1DB484B10021BEE3 /* violations .swift in Sources */,
+				9CF60A1F1DB49AE20021BEE3 /* restarauntTableViewController.swift in Sources */,
 				1EE6D1321DB2D7B0006EBDBF /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -303,6 +311,7 @@
 				1EE6D1421DB2D7B0006EBDBF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
